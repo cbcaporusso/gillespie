@@ -5,7 +5,7 @@ from src.simulation import Simulation
 def main():
     
     # Define initial conditions
-    nruns = 25
+    nruns = 100
 
     t0 = 0
     tf = 10
@@ -37,7 +37,6 @@ def main():
         plt.plot(t, s_array, label="S")
         plt.plot(t, i_array, label="I")
         plt.plot(t, r_array, label="R")
-    
     
     plt.show()
 
